@@ -1,3 +1,4 @@
+                ***  Frontend ****
 ## Merhabalar, sayfayı ilk açtığınızda karşınıza giriş sayfası çıkar.
 ![image](images/4.png)
 ama şuanlık proje tam bitmediği için diğer sayfaya arama çubuğundan geçiyoruz.
@@ -9,8 +10,11 @@ http://localhost:3000/tenant
 ![image](images/1.png)
 Ödeme sayfası:
 ![image](images/2.png)
-Daire yönetmeni ile kiracının konuştuğu mesaj sekmesi alttaki mavi mesaj iconuna tıklayınca açılıyor:
+Daire yönetmeni ile kiracının konuştuğu mesaj sekmesi alttaki mavi mesaj iconuna tıklayınca açılıyor:<br><br>
 ![image](images/3.png)
+
+En üst kısımdaki profil fotoğtafına tıklayınca kullanıcı kendisi ile ilgili bazı bilgiler görebilir:
+![image](images/13.png)
 ### Url çubuğuna 
 
 ```
@@ -38,6 +42,12 @@ görebilirsiniz.
 ![image](images/8.png)
 Kırmızı ile gösterdiğim <strong> Add tanent </strong> butonundan yeni katılımcı ekleyebilirsiniz.
 ![image](images/9.png)
+### Menüdeki <strong>Payments</strong> butonu bize ödenmiş ve ödenmemiş faturalar ile ilgili ayrınıtılı bigi verir.
+![image](images/10.png)
+
+### Son olarak <strong> Apartman </strong> menüsünde yeni apartman, yen, blok ekleyebilir, bütün ya da blok adı ve kat sayısına göre filtrelenmiş apartman bilgilerini görebilirsiniz
+![image](images/11.png)
+![image](images/12.png)
 
 # Getting Started with Create React App
 

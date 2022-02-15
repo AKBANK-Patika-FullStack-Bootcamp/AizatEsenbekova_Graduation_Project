@@ -1,0 +1,36 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.wrapper {
+    height: 70px;
+    padding: 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 20px 0px;;
+}
+.search-input{
+    border-radius: 20px;
+    background-color: rgb(243, 245, 250);
+}
+.chats-icon{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.user-icon{
+    margin-right: 20px;
+}
+
+.user-icon img{
+    width: 40px;
+    height: auto;
+}
+
+.popov{
+    min-width: 500px !important;
+}
+
+.chat-link{
+    color: #000;
+}
+.active{
+    color: aqua;
+}

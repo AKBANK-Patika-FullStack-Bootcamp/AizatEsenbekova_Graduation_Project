@@ -1,0 +1,471 @@
+{
+	"info": {
+		"_postman_id": "ed9bb934-57b9-4f94-ae97-fa8463a30e4e",
+		"name": "SoftaApartments",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Roles",
+			"item": [
+				{
+					"name": "getRoles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5032/RoleDbOperations",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"RoleDbOperations"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Blocks",
+			"item": [
+				{
+					"name": "getBlocks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5032/BlockDbOperations",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"BlockDbOperations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addBlock",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\r\n    \"block_name\": \"B\",\r\n    \"num_flats\":20\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5032/BlockDbOperations",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"BlockDbOperations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getBlock",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5032/BlockDbOperations/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"BlockDbOperations",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteBlock",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5032/BlockDbOperations/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"BlockDbOperations",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Type_Rooms",
+			"item": [
+				{
+					"name": "getTypes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5032/Type_RoomsDbOperations",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"Type_RoomsDbOperations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getType",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5032/Type_RoomsDbOperations/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"Type_RoomsDbOperations",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Apartments",
+			"item": [
+				{
+					"name": "getApartments",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5032/ApartmentDbOperations",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"ApartmentDbOperations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getApartment",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5032/ApartmentDbOperations/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"ApartmentDbOperations",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addApartment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n    {\r\n        \"num_floor\": 2,\r\n        \"num_apar\": 1,\r\n        \"status\": false,\r\n        \"block_id\": 3,\r\n        \"type_id\": 4\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5032/ApartmentDbOperations",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"ApartmentDbOperations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5032/ApartmentDbOperations/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"ApartmentDbOperations",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getApartmentDetails",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5032/ApartmentDetailsWithCondition/?block_id=4&floor=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"ApartmentDetailsWithCondition",
+								""
+							],
+							"query": [
+								{
+									"key": "block_id",
+									"value": "4"
+								},
+								{
+									"key": "floor",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "apartDetailsWithCondition",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5032/ApartmentDetailsWithCondition",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5032",
+							"path": [
+								"ApartmentDetailsWithCondition"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tenants",
+			"item": [
+				{
+					"name": "getTenants",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5032/TenantDbOperations",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"TenantDbOperations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getTenant",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5032/TenantDbOperations/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"TenantDbOperations",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addTenant",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tc_id\": \"99408345234\",\r\n    \"name\": \"MK\",\r\n    \"surname\": \"Omurbekov\",\r\n    \"email\": \"momurbek@gmail.com\",\r\n    \"password\": \"122223\",\r\n    \"tel_no\": \"05523371080\",\r\n    \"license_plate\": \"12AI88    \",\r\n    \"status\": true,\r\n    \"role_id\": 2,\r\n    \"apar_id\": 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5032/TenantDbOperations",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"TenantDbOperations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateTenant",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\r\n        \"tenant_id\": 1,\r\n        \"tc_id\": \"99408348128\",\r\n        \"name\": \"Aizat\",\r\n        \"surname\": \"Esenbekova\",\r\n        \"email\": \"ayzatesenbekova@gmail.com\",\r\n        \"password\": \"13579\",\r\n        \"tel_no\": \"05524969891\",\r\n        \"license_plate\": \"12AI89    \",\r\n        \"status\": true,\r\n        \"role_id\": 1,\r\n        \"apar_id\": 1\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5032/TenantDbOperations/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"TenantDbOperations",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteTenant",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5032/TenantDbOperations/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5032",
+							"path": [
+								"TenantDbOperations",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tenantDetails",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "HiringDetails",
+			"item": [
+				{
+					"name": "getHiringDetails",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

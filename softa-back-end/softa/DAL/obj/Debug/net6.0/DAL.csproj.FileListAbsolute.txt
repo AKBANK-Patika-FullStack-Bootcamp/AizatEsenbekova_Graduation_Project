@@ -1,0 +1,17 @@
+C:\Users\happy\source\repos\SoftaApartments\softa\DAL\bin\Debug\net6.0\DAL.deps.json
+C:\Users\happy\source\repos\SoftaApartments\softa\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+C:\Users\happy\source\repos\SoftaApartments\softa\DAL\bin\Debug\net6.0\DAL.dll
+C:\Users\happy\source\repos\SoftaApartments\softa\DAL\bin\Debug\net6.0\ref\DAL.dll
+C:\Users\happy\source\repos\SoftaApartments\softa\DAL\bin\Debug\net6.0\DAL.pdb
+C:\Users\happy\source\repos\SoftaApartments\softa\DAL\bin\Debug\net6.0\Entities.dll
+C:\Users\happy\source\repos\SoftaApartments\softa\DAL\bin\Debug\net6.0\Entities.pdb
+C:\Users\happy\source\repos\SoftaApartments\softa\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\happy\source\repos\SoftaApartments\softa\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\happy\source\repos\SoftaApartments\softa\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\happy\source\repos\SoftaApartments\softa\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+C:\Users\happy\source\repos\SoftaApartments\softa\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\happy\source\repos\SoftaApartments\softa\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+C:\Users\happy\source\repos\SoftaApartments\softa\DAL\obj\Debug\net6.0\DAL.dll
+C:\Users\happy\source\repos\SoftaApartments\softa\DAL\obj\Debug\net6.0\ref\DAL.dll
+C:\Users\happy\source\repos\SoftaApartments\softa\DAL\obj\Debug\net6.0\DAL.pdb
+C:\Users\happy\source\repos\SoftaApartments\softa\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache

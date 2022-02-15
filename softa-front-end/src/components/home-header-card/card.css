@@ -1,0 +1,24 @@
+.header-card{
+    border-radius: 10px !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-img img{
+    width: 30px;
+}
+h3{
+
+    display: flex;
+    text-align: left;
+    margin: 2px;
+    
+    align-items: end;
+
+}
+h3 span{
+    
+    font-size: 24px;
+}
+.cart-title{
+    margin-left: 5px;
+}

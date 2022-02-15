@@ -45,11 +45,47 @@ Kırmızı ile gösterdiğim <strong> Add tanent </strong> butonundan yeni katı
 ### Menüdeki <strong>Payments</strong> butonu bize ödenmiş ve ödenmemiş faturalar ile ilgili ayrınıtılı bigi verir.
 ![image](images/10.png)
 
-                        *** Backend ****
+
 ### Son olarak <strong> Apartman </strong> menüsünde yeni apartman, yen, blok ekleyebilir, bütün ya da blok adı ve kat sayısına göre filtrelenmiş apartman bilgilerini görebilirsiniz
 ![image](images/11.png)
 ![image](images/12.png)
 
+--------------------------------------------------------------
+                        *** Backend ****
+![image](images/db-diagram.jpg)
+Apartman veritabanının diagramını bu şeklide oluşturdum.
+|Tablolar| İçinde tuttuğu veriler | Tablo açıklaması|
+|--------|------------------------|-----------------|
+|bill_type| Id ve fatura adı  | Fatura türlerinde redudancy(veri tekrarı) propblemini önlemek için yazılmış tablo|
+|bills|fatura id,kira_id, fatura türü idsi, fatura miktarı, ödenme tarihi| Bütün faturaların hangi tipte olduğunu, kimin arasında ve ne zaman yapıldığını tutan tablo|
+|block| block id, block adı, bloğun toplam kat sayısı, bloğun toplam daire sayısı | Bir bşoğun adı ne, içinde toplam kaç daire var onlara ulaşabilmek için oluştulutmuş tablo|
+|type_rooms| oda türü idsi ve oda türü adları| dairenin oda sayısını tutan tablo. Ör: 1+1,2+1|
+|apartments|apartman idsi| apartman numarası, kat sayısı, dolu boş durumu, blok idsi ve oda türü idsini tutar| block id ve oda türü idlerini kullanarak join işlemi ile oda hakkında daha ayrıntılı bilgiye ulaşanbliriz|
+|hr_details| kiralma detay isdi, kiracı idsi, başlangıç ve bitiş tarihlerini tutuyor| Bu tablo aracılığıyla eski ve yeni bilgilere ayrınrılı ulaşabiliriz. Tablo trigger  ile doldurulmakta|
+|role| role idsi ve rol adı|2 tür rol vardır admin ve kullanıcı|
+|tenants|kiracı idsi, adı soyadı, iletişim bilgileri, varsa araba numarası, rolü ve daire bilgileri|kullanıcı ile ilgili detaylı bilgi tutan tablo|
+|billsForMonth| Kiracı başına aylık atanan bütün faturalar ve ay bilgisi| ödenme durumunu kontrol etmeyi kolaylaştırmak amaçla tasarlanmış tablo|
+
+![image](images/database.png)
+* (mavi) api
+* (kırmızı) veritabanı
+## Softa dosyasının içinde 3 tane dosya vardır:
+* Entities: Modelleri tuttuğum dosya
+* DAL: veri tabanına bağlandığım ve tablolar ile modelleri eşleştirdiğim katman
+* softa CRUD işlemlerinin yapıldığı katman
+
+## 3 tane katmana da öncesinde 4 tane paket indirdim:
+* EntityFrameWork
+* Microsoft.EntityFrameworkCore
+* Microsoft.EntityFrameworkCore.SqlServer
+* Microsoft.EntityFrameworkCore.Tools
+
+----------------------------------------------------------------------------------
+<img src=https://img.icons8.com/dotty/2x/react.png width='60'>
+<img src=https://img.icons8.com/ios/344/visual-studio.png width='50'>
+<img src=https://img.icons8.com/carbon-copy/344/visual-studio-code-2019.png width='70'>
+<imd src=https://img.icons8.com/color/2x/microsoft-sql-server.png width='60'>
+<br><br><br><br>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

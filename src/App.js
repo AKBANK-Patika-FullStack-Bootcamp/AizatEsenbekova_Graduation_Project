@@ -17,7 +17,7 @@ import TeanantHeader from './components/tenant-header/TeanantHeader';
 function App() {
   return (
     <div className="App">
-    <Route path="/login">
+    <Route path="/" exact>
        <Login/>
     </Route>
     <Route path="/admin">
@@ -47,11 +47,11 @@ function App() {
            </Col>
       </Row>
     </Route>
-    <Route path="/" exact>
+    <Route path="/tenant" exact>
           <TeanantHeader/>
-          <Route path="/" exact>
+          
             <THome/>
-          </Route>
+          
              
     </Route>
       

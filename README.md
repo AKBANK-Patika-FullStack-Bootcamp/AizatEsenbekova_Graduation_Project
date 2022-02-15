@@ -1,3 +1,44 @@
+## Merhabalar, sayfayı ilk açtığınızda karşınıza giriş sayfası çıkar.
+![image](images/4.png)
+ama şuanlık proje tam bitmediği için diğer sayfaya arama çubuğundan geçiyoruz.
+### Arama çubuğuna alttaki urlyi yazarsanız kiracı sayfasına geçer.
+```
+http://localhost:3000/tenant
+```
+ #### Üst kısımda kullanıcıya aylık atanan faturalar bulunmaktadır. Altta ise kullanıcının son hareketleri yer almaktadır. Kırmızı ile çizdiğim butona bastığımızda ödeme sayfası karşımıza çıkacaktır.
+![image](images/1.png)
+Ödeme sayfası:
+![image](images/2.png)
+Daire yönetmeni ile kiracının konuştuğu mesaj sekmesi alttaki mavi mesaj iconuna tıklayınca açılıyor:
+![image](images/3.png)
+### Url çubuğuna 
+
+```
+http://localhost:3000/admin/home
+```
+yazarak daire yöneticisinin anasayfasına geçiyoruz:
+![image](images/5.png)
+* yeşil ile gösterdiğim kısım menüler
+* kırmızı ile gösterdiğim kısım sitedeki kullanıcı sayısı ve doluluk oranı, daire sayısı ve doluluk oranı, aylık ödenmesi gereken toplam para miktarı ve şuanki para miktarı gösterilmiştir
+* mavi çizgi ile son hareketler gösterilerek ödenen faturalar kısmına yeşil tık atılmıştır
+* en üstteki turuncu kare ile gösterilen mesaj ikonuna tıklayınca karşınıza mesajlaşma sayfası çıkacaktır:
+![image](images/6.png)
+### Menüde <strong>Tenants</strong> butonuna tıklayınca kiracılar ile ilgili bilgi alabileceğimiz sayfaya geçiyoruz.
+![image](images/7.png)
+Burada bütün katılımcıların veya blok ve kat sayısına göre filtrelenmiş katılımcıların:
+* Ad soyad
+* TC kimlik
+* Email
+* Telefon numara
+* Plaka numara
+* Kaldığı bloğun adını
+* Kaldığı odanın numarsını
+görebilirsiniz.
+<br> Üstteki mavi kare ile gösterdiğim artı kısmından yeni blok ekleyebilirsiniz.
+![image](images/8.png)
+Kırmızı ile gösterdiğim <strong> Add tanent </strong> butonundan yeni katılımcı ekleyebilirsiniz.
+![image](images/9.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "7111b2d3-a817-4e10-a5de-04c8b0390988": {
+      "ProjectGuid": "7111b2d3-a817-4e10-a5de-04c8b0390988",
+      "DisplayName": "softa",
+      "ColorIndex": 0
+    },
+    "773c467b-8b72-4808-8f94-d3d3a5ffac08": {
+      "ProjectGuid": "773c467b-8b72-4808-8f94-d3d3a5ffac08",
+      "DisplayName": "Entities",
+      "ColorIndex": 1
+    },
+    "c44cd224-eaf5-4182-9b8b-c204970cdfd8": {
+      "ProjectGuid": "c44cd224-eaf5-4182-9b8b-c204970cdfd8",
+      "DisplayName": "DAL",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

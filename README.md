@@ -1,4 +1,4 @@
-                ***  Frontend ****
+                         ***  Frontend ****
 ## Merhabalar, sayfayı ilk açtığınızda karşınıza giriş sayfası çıkar.
 ![image](images/4.png)
 ama şuanlık proje tam bitmediği için diğer sayfaya arama çubuğundan geçiyoruz.
@@ -25,7 +25,7 @@ yazarak daire yöneticisinin anasayfasına geçiyoruz:
 * yeşil ile gösterdiğim kısım menüler
 * kırmızı ile gösterdiğim kısım sitedeki kullanıcı sayısı ve doluluk oranı, daire sayısı ve doluluk oranı, aylık ödenmesi gereken toplam para miktarı ve şuanki para miktarı gösterilmiştir
 * mavi çizgi ile son hareketler gösterilerek ödenen faturalar kısmına yeşil tık atılmıştır
-* en üstteki turuncu kare ile gösterilen mesaj ikonuna tıklayınca karşınıza mesajlaşma sayfası çıkacaktır:
+* en üstteki turuncu kare ile gösterilen mesaj ikonuna tıklayınca karşınıza mesajlaşma sayfası çıkacaktır:<br><br>
 ![image](images/6.png)
 ### Menüde <strong>Tenants</strong> butonuna tıklayınca kiracılar ile ilgili bilgi alabileceğimiz sayfaya geçiyoruz.
 ![image](images/7.png)
@@ -38,13 +38,14 @@ Burada bütün katılımcıların veya blok ve kat sayısına göre filtrelenmi�
 * Kaldığı bloğun adını
 * Kaldığı odanın numarsını
 görebilirsiniz.
-<br> Üstteki mavi kare ile gösterdiğim artı kısmından yeni blok ekleyebilirsiniz.
+<br> Üstteki mavi kare ile gösterdiğim artı kısmından yeni blok ekleyebilirsiniz.<br><br>
 ![image](images/8.png)
 Kırmızı ile gösterdiğim <strong> Add tanent </strong> butonundan yeni katılımcı ekleyebilirsiniz.
 ![image](images/9.png)
 ### Menüdeki <strong>Payments</strong> butonu bize ödenmiş ve ödenmemiş faturalar ile ilgili ayrınıtılı bigi verir.
 ![image](images/10.png)
 
+                        *** Backend ****
 ### Son olarak <strong> Apartman </strong> menüsünde yeni apartman, yen, blok ekleyebilir, bütün ya da blok adı ve kat sayısına göre filtrelenmiş apartman bilgilerini görebilirsiniz
 ![image](images/11.png)
 ![image](images/12.png)

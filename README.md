@@ -81,10 +81,7 @@ Apartman veritabanının diagramını bu şeklide oluşturdum.
 * Microsoft.EntityFrameworkCore.Tools
 
 ----------------------------------------------------------------------------------
-<img src=https://img.icons8.com/dotty/2x/react.png width='60'>
-<img src=https://img.icons8.com/ios/344/visual-studio.png width='50'>
-<img src=https://img.icons8.com/carbon-copy/344/visual-studio-code-2019.png width='70'>
-<imd src=https://img.icons8.com/color/2x/microsoft-sql-server.png width='60'>
+
 <br><br><br><br>
 # Getting Started with Create React App
 
